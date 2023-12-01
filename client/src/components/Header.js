@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import { Link, useLocation } from "react-router-dom";
+import logo1 from "../img/logo1.png"
 //import Register1 from './Register1.js'
 
 function Header(props) {
@@ -20,7 +21,7 @@ function Header(props) {
           sx={{ flex: 5 }}
         >
           <Link to="/">
-            <img src="/images/logo1.png" width="180" height="100"/>
+            <img src={logo1} width="180" height="100"/>
           </Link>
           <div>
           <p style={{color:"#212529",fontFamily:"cursive",fontSize:"20px"}}>Every pet deserves a good care.....</p>
