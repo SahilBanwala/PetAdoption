@@ -22,7 +22,7 @@ app.use("/api/pets", petRoutes);
 app.use("/api/category", categoryRoutes);
 app.use("/api/adoption", adoptionRoutes);
 
-const mongodbUri = 'mongodb://localhost:27017/PetData';
+const mongodbUri = 'mongodb+srv://sahilbanwala2002:sahil@cluster0.6y96tdf.mongodb.net/';
 
 mongoose.set('strictQuery',true)
 
